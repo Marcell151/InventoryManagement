@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/
 import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { auth, User } from '../lib/auth';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface LoginProps {
   onLogin: (user: User) => void;

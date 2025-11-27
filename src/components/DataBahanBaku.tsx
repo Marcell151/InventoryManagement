@@ -15,7 +15,7 @@ import {
 import { storage, BahanBaku } from '../lib/storage';
 import { calculateROP } from '../lib/calculations';
 import { User } from '../lib/auth';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface DataBahanBakuProps {
   currentUser: User;

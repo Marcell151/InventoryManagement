@@ -16,7 +16,7 @@ import {
 import { storage, BahanBaku, TransaksiPenerimaan, TransaksiPengeluaran } from '../lib/storage';
 import { calculateROP } from '../lib/calculations';
 import { PERMISSIONS, User } from '../lib/auth';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface TransaksiPersediaanProps {
   currentUser: User;
